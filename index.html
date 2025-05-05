@@ -1,22 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Shekhar</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chandrashekhar Patel | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script>
+    // Basic obfuscation
+    function revealContact(type) {
+      if (type === 'email') {
+        const user = 'computershekhar';
+        const domain = 'gmail.com';
+        document.getElementById('email').textContent = user + '@' + domain;
+      } else if (type === 'phone') {
+        const number = '+91 7879 553208';
+        document.getElementById('phone').textContent = number;
+      }
+    }
+    window.onload = function () {
+      revealContact('email');
+      revealContact('phone');
+    };
+  </script>
 </head>
-<body>
 
-<div class="jumbotron text-center">
-  <h1>My Personal Blog</h1>
-  
-</div>
-  
-<div class="container">
-</div>
+<body class="bg-gray-100 text-gray-800 font-sans">
+  <header class="bg-white shadow-md p-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h1 class="text-4xl font-bold">Chandrashekhar Patel</h1>
+      <p class="text-lg text-gray-600">Senior Software Engineer | Full-Stack Developer | Node.js | Cloud Architect</p>
+    </div>
+  </header>
 
+  <section class="max-w-5xl mx-auto p-6">
+    <h2 class="text-2xl font-semibold mb-2">About Me</h2>
+    <p>Core Module Lead with 5+ years of experience in full-stack web development and cloud solutions. Led
+      cross-functional teams to deliver scalable products, achieving cost reductions of up to 15% and boosting
+      performance by over 30%. Skilled in Node.js, NestJS, Angular, PostgreSQL, and AWS/GCP/Azure. Adept in system
+      design, security, and agile project management.</p>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 bg-white shadow rounded mt-4">
+    <h2 class="text-2xl font-semibold mb-4">Technical Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <span>JavaScript</span>
+      <span>TypeScript</span>
+      <span>C/C++</span>
+      <span>Java</span>
+      <span>Node.js</span>
+      <span>NestJS</span>
+      <span>Angular</span>
+      <span>React</span>
+      <span>Next.js</span>
+      <span>PostgreSQL</span>
+      <span>MySQL</span>
+      <span>MongoDB</span>
+      <span>AWS</span>
+      <span>GCP</span>
+      <span>Azure</span>
+      <span>GitHub</span>
+      <span>GitLab</span>
+      <span>JIRA</span>
+      <span>Jenkins</span>
+      <span>Sentry</span>
+      <span>Microservices</span>
+      <span>System Design</span>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 mt-6">
+    <h2 class="text-2xl font-semibold mb-4">Key Achievements</h2>
+    <ul class="list-disc pl-5 space-y-2">
+      <li>Improved code quality by 40% by implementing SonarQube and resolving 30,000+ issues.</li>
+      <li>Reduced production bugs by 30% through improved system architecture.</li>
+      <li>Boosted SQL performance by 30%, increasing API response times by 20%.</li>
+      <li>Cut infrastructure costs by 15% through system modernization.</li>
+      <li>Reduced login issues by 40% via SSO integration across 15+ apps.</li>
+    </ul>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 mt-6 bg-white shadow rounded">
+    <h2 class="text-2xl font-semibold mb-4">Professional Experience</h2>
+    <div class="space-y-4">
+      <div>
+        <h3 class="font-bold">AkriviaHCM, Hyderabad – Senior Software Engineer & Module Lead</h3>
+        <p class="text-sm text-gray-600">April 2024 – Present</p>
+        <ul class="list-disc pl-5">
+          <li>Led a cross-functional team of 11 to deliver scalable solutions.</li>
+          <li>Reduced production issues by 30% and introduced templated coding, improving efficiency by 25%.</li>
+          <li>Improved legacy infrastructure, resulting in a 40% performance boost.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold">Ensuredit, Gurgaon – Senior Software Engineer & Team Lead</h3>
+        <p class="text-sm text-gray-600">Jan 2022 – April 2024</p>
+        <ul class="list-disc pl-5">
+          <li>Developed CRM tools, improved UX by 70%, and cut reporting time by 50%.</li>
+          <li>Integrated insurer APIs, enhancing transaction flexibility.</li>
+          <li>Strengthened data security by 40% through admin control panels.</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="font-bold">Pybritech, Bangalore – Full Stack Developer (MEAN Stack)</h3>
+        <p class="text-sm text-gray-600">Nov 2019 – Jan 2022</p>
+        <ul class="list-disc pl-5">
+          <li>Delivered e-commerce platform updates with 98% on-time delivery.</li>
+          <li>Reduced latency by 20% and collaborated with cross-functional teams.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 mt-6">
+    <h2 class="text-2xl font-semibold mb-4">Project Highlights</h2>
+    <ul class="list-disc pl-5 space-y-2">
+      <li><strong>Scalable Insurance Platform:</strong> Integrated APIs from 5 insurers, improved API performance by
+        25%, supported 3 payment gateways.</li>
+      <li><strong>Unified SSO System:</strong> Deployed across 15+ applications, cut login support tickets by 40%.</li>
+      <li><strong>CRM Automation & Reporting Tool:</strong> Reduced reporting time by 50%, boosted real-time data
+        usability.</li>
+    </ul>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 mt-6 bg-white shadow rounded">
+    <h2 class="text-2xl font-semibold mb-4">Education</h2>
+    <ul class="list-disc pl-5">
+      <li>M.Tech in Computer Science – Pursuing (2nd Year)</li>
+      <li>B.E. in Computer Science – Rajiv Gandhi Proudyogiki Vishwavidyalaya (2016 – 2020), CGPA: 7.40, First Class
+      </li>
+      <li>12th Grade – MP Board, 2015</li>
+      <li>10th Grade – MP Board, 2013</li>
+    </ul>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 mt-6">
+    <h2 class="text-2xl font-semibold mb-4">Certifications & Courses</h2>
+    <ul class="list-disc pl-5">
+      <li>C Programming – August 2016</li>
+      <li>Core Java – April 2017</li>
+      <li>C++ – January 2017</li>
+      <li>Android Development – August 2018</li>
+      <li>Institute: APTECH Computer Education, Sagar, MP</li>
+    </ul>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 mt-6 bg-white shadow rounded">
+    <h2 class="text-2xl font-semibold mb-4">Internships</h2>
+    <ul class="list-disc pl-5">
+      <li>ZV Ventures, Bangalore – Node.js Backend Developer (Aug 2019 – Oct 2019)</li>
+      <li>Ensomerge Services, Bangalore – PHP Backend Developer (Jun 2019 – Jul 2019)</li>
+    </ul>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 mt-6">
+    <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+    <p><strong>Phone:</strong> <span id="phone">[Hidden for bots]</span></p>
+    <p><strong>Email:</strong> <span id="email">[Hidden for bots]</span></p>
+    <p><strong>Address:</strong> Ambience Building, Madhapur, Hyderabad, India – 500081</p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/i5hekhar"
+        class="text-blue-600">linkedin.com/in/i5hekhar</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/i5hekhar" class="text-blue-600">github.com/i5hekhar</a></p>
+  </section>
+
+  <section class="max-w-5xl mx-auto p-6 mt-6">
+    <h2 class="text-2xl font-semibold mb-4">Download Resume</h2>
+    <a href="https://drive.google.com/drive/folders/1OfjYZtam_WebikiX6QR2VrublAC8nJnT?usp=sharing" target="_blank"
+      class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-semibold px-6 py-3 rounded-lg">Download My
+      Resume
+      (PDF)</a>
+  </section>
+
+  <footer class="text-center p-4 mt-10 text-gray-500 text-sm">
+    © 2025 Chandrashekhar Patel. All rights reserved.
+  </footer>
 </body>
+
 </html>
